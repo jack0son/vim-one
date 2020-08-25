@@ -627,7 +627,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('javaScriptRequire',      s:hue_1,   '', '')
   call <sid>X('javaScriptReserved',     s:hue_3,   '', '')
   " https://github.com/pangloss/vim-javascript
-  call <sid>X('jsArrowFunction',        s:hue_3,   '', '')
+  call <sid>X('jsArrowFunction',        s:hue_5_2,   '', '')
   call <sid>X('jsBraces',               s:mono_2,  '', '')
   call <sid>X('jsClassBraces',          s:mono_2,  '', '')
   call <sid>X('jsClassKeywords',        s:hue_3,   '', '')
@@ -636,6 +636,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('jsFuncBraces',           s:mono_2,  '', '')
   call <sid>X('jsFuncCall',             s:hue_2,   '', '')
   call <sid>X('jsFuncParens',           s:mono_2,  '', '')
+  call <sid>X('jsDestructuringBlock',   s:hue_1,  '', '')
   call <sid>X('jsFunction',             s:hue_3,   '', '')
   call <sid>X('jsGlobalObjects',        s:hue_6_2, '', '')
   call <sid>X('jsModuleWords',          s:hue_3,   '', '')
